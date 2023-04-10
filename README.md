@@ -4,4 +4,4 @@ We do assignments
 
 #### License
 
-MIT
+MIT# frappe_assignment
