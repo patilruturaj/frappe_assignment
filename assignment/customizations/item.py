@@ -1,8 +1,5 @@
 import frappe
 
-# def print_data():
-#     print(frappe.utils.getdate())
-
 def before_save(doc, method=None):
     if doc.variant_of:
         for att in doc.attributes:
