@@ -103,6 +103,14 @@ app_license = "MIT"
 #	}
 # }
 
+doc_events = {
+	"Item": {
+		"before_save": "assignment.customizations.item.before_save"
+		# "on_cancel": "method",
+		# "on_trash": "method"
+	}
+}
+
 # Scheduled Tasks
 # ---------------
 
